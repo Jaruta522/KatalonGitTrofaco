@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SearchSite_VerifyAvailabletrees</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3537708-f399-407c-90af-2df87c8e80ae</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6914d339-312b-400e-9e15-3bc081682489</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63dd2267-a118-42e2-92a4-7c6c6235a9c6</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+</TestCaseEntity>

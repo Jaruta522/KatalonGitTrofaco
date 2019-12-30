@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Backend_LoginSuccess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7116a61b-eab2-4839-ada7-c0867761c6ad</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fca290c1-7b3c-41c4-84b3-812b5428392c</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b5f40cb2-2338-4619-bbc5-8ee6563b7ac6</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
