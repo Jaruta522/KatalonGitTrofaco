@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SearchSite_VerifyAvailabletrees</name>
+   <name>Frontend_ThumbnailSize86OnMap</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f3537708-f399-407c-90af-2df87c8e80ae</testCaseGuid>
+   <testCaseGuid>55cf64be-94f7-47f5-9582-0b8d538b6734</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6914d339-312b-400e-9e15-3bc081682489</id>
+      <id>57bd873c-f606-46fe-9b61-74d81f6129b1</id>
       <masked>false</masked>
       <name>variable</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>63dd2267-a118-42e2-92a4-7c6c6235a9c6</id>
+      <id>1a20c71f-1662-4340-b42a-4c00395340f6</id>
       <masked>false</masked>
       <name>variable_0</name>
    </variable>

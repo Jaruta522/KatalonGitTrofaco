@@ -18,15 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.FrontendURL)
 
-WebUI.setText(findTestObject('Object_Frontend/input_OR_form-control form-control-lg ng-un_30f436'), 'ps 14')
+WebUI.setText(findTestObject('Object Repository/Object_Frontend/Page_TROFACO/input_OR_form-control form-control-lg ng-un_30f436'), 
+    GlobalVariable.SearchKey)
 
-WebUI.sendKeys(findTestObject('Object_Frontend/input_OR_form-control form-control-lg ng-un_30f436'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Object_Frontend/Page_TROFACO/input_OR_form-control form-control-lg ng-un_30f436'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object_Frontend/Page_TROFACO/Click_MapInfo_GotoDetailsPage'))
+WebUI.verifyEqual(WebUI.getElementWidth(findTestObject('Object_Frontend/Page_TROFACO/Thumbnail_Image')), 86)
 
-WebUI.click(findTestObject('Object_Frontend/PlantTrees_Buttom'))
-
-WebUI.getWindowTitle() == 'TROFACO - Offset your emissions with climate compensation'
-
-WebUI.closeBrowser()
+WebUI.verifyEqual(WebUI.getElementHeight(findTestObject('Object_Frontend/Page_TROFACO/Thumbnail_Image')), 86)
 

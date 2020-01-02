@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>PROD_Environment</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://trees.trofaco.org/'</initValue>
+      <name>FrontendURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://trees.trofaco.org/admin'</initValue>
+      <name>BackendURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Object_Frontend/Page_TROFACO/Click_MapInfo_GotoDetailsPage')</initValue>
+      <name>MapInfoGotoDetailsPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>60</initValue>
+      <name>G_Longtimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KRANG LAO'</initValue>
+      <name>SearchKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2,297'</initValue>
+      <name>AvailableTrees</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

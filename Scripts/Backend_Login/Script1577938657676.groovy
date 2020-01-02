@@ -18,27 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.BackendURL)
 
-//for (def rowNum = 1; rowNum <= findTestData('Login').getRowNumbers(); rowNum++) {
-//WebUI.setText(findTestObject('Object_Backend/input_Username is required_username'), Username)
+//Sent invalid login
 WebUI.setText(findTestObject('Object_Backend/input_Username is required_username'), findTestData('Login').getValue(1, 1 /*rowNum*/)) //get data from column1 & row 1
-//WebUI.setEncryptedText(findTestObject('Object_Backend/input_Username is required_password'), Password)
 WebUI.setText(findTestObject('Object_Backend/input_Username is required_password'), findTestData('Login').getValue(2, 1 /*rowNum*/)) //get data from column2 & row 1
-
 Thread.sleep(2000)
 WebUI.click(findTestObject('Object_Backend/button_Login'))
 
 if (WebUI.waitForElementPresent(findTestObject('Object_Backend/Invalid username and password msg'), 0, FailureHandling.STOP_ON_FAILURE)) {
-    //WebUI.verifyElementPresent(findTestObject('Object_Backend/Invalid username and password msg'), 0)
 	Thread.sleep(1000)
-    WebUI.setText(findTestObject('Object Repository/Object_Backend/Page_Backend  TROFACO/input_Username is required_username'), 
+    WebUI.setText(findTestObject('Object Repository/Object_Backend/Page_Backend  TROFACO/input_Username is required_username'), //set Valid login
         'superadmin@manaotest.com')
     WebUI.setEncryptedText(findTestObject('Object Repository/Object_Backend/Page_Backend  TROFACO/input_Username is required_password'), 
         'Jm2HgL65gX5rsiork5MjpQ==')
     Thread.sleep(2000)
     WebUI.click(findTestObject('Object_Backend/button_Login'))
 }
-
-WebUI.waitForElementVisible(findTestObject('Object_Frontend/Page_TROFACO/Page_Backend  TROFACO/a_Logout'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 WebUI.click(findTestObject('Object_Frontend/Page_TROFACO/Page_Backend  TROFACO/a_Logout'))

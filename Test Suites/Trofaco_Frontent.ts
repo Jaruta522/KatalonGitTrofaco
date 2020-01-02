@@ -11,10 +11,28 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>60cbdeeb-a484-4e13-aa23-f7f36223592c</testSuiteGuid>
    <testCaseLink>
-      <guid>33ad9a89-4b8d-4d4b-8a7c-b97156bd3696</guid>
+      <guid>accbaf8a-2ae2-4e93-96f2-d89ce85b4440</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SearchSite_VerifyAvailabletrees</testCaseId>
+      <testCaseId>Test Cases/Frontend_ThumbnailSize86OnMap</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57bd873c-f606-46fe-9b61-74d81f6129b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a20c71f-1662-4340-b42a-4c00395340f6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df9e1ee5-907a-44e3-86bf-7bad5e9212ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Frontend_VerifyAvailabletrees</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -29,10 +47,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fd866d1c-65b2-45a4-801f-64948de4ad31</guid>
+      <guid>70bbea24-55a2-4650-9e56-fd280f317966</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify_PlantTreesLink</testCaseId>
+      <testCaseId>Test Cases/Frontend_PlantTreesButton</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
