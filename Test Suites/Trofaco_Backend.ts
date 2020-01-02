@@ -11,16 +11,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c4fb94bc-cc9e-4e85-9055-fc98920d6088</testSuiteGuid>
    <testCaseLink>
-      <guid>5bc8503d-b9c0-4398-830e-aeffa089221a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Backend_InvalidPasswordLogin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>710ad268-46d7-4311-a2bf-5882359ea748</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Backend_LoginSuccess</testCaseId>
+      <testCaseId>Test Cases/Backend_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9dfd53ce-a07d-4e8d-96ff-f35027cbb996</id>
