@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Frontend_VerifyAvailabletrees</name>
+   <name>Frontend_Availabletrees</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f3537708-f399-407c-90af-2df87c8e80ae</testCaseGuid>
