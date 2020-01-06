@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Thailand Chiang Mai_imageShow</name>
+   <tag></tag>
+   <elementGuidId>4f19a357-c6e1-4d4e-88ab-aba607f7e762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>imageShow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>UploadedImages/5c542cfdb96647d14d5a08d721f1a85d/2369725758c84d2d2fed08d729f6a0b0-thumbnail.jpeg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;frontend sidebar-hidden aside-menu-hidden header-fixed ng-tns-0-0 footer-hidden&quot;]/app-root[@class=&quot;active&quot;]/app-frontend[1]/div[@class=&quot;app-body&quot;]/main[@class=&quot;main&quot;]/div[@class=&quot;no-padding-container-fluid&quot;]/app-collection-map[1]/div[@class=&quot;animated fadeIn home fullMapPage&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;mapouter&quot;]/div[@class=&quot;gmap_canvas&quot;]/agm-map[@class=&quot;sebm-google-map-container&quot;]/div[@class=&quot;agm-map-container-inner sebm-google-map-container-inner&quot;]/div[1]/div[@class=&quot;gm-style&quot;]/div[1]/div[3]/div[1]/div[4]/div[@class=&quot;si-float-wrapper&quot;]/div[@class=&quot;si-wrapper-top&quot;]/div[@class=&quot;si-frame si-content-wrapper&quot;]/div[@class=&quot;si-content&quot;]/div[1]/div[@class=&quot;imageOnMapWrapper&quot;]/div[@class=&quot;imageOnMapBg&quot;]/div[@class=&quot;imageOnMap&quot;]/img[@class=&quot;imageShow&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -32,7 +32,7 @@
       <guid>df9e1ee5-907a-44e3-86bf-7bad5e9212ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Frontend_VerifyAvailabletrees</testCaseId>
+      <testCaseId>Test Cases/Frontend_Availabletrees</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

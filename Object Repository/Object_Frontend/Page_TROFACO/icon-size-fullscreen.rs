@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon-size-fullscreen</name>
+   <tag></tag>
+   <elementGuidId>a22b5dcb-b0ee-41b2-b9e3-87dc4abee21a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='col-xs-12 collection-map']//button[@class='btn btn-dark']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-size-fullscreen</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;frontend sidebar-hidden aside-menu-hidden header-fixed ng-tns-0-0&quot;]/app-root[@class=&quot;active&quot;]/app-frontend[1]/div[@class=&quot;app-body&quot;]/main[@class=&quot;main&quot;]/div[@class=&quot;container&quot;]/app-collection-detail[1]/div[@class=&quot;animated fadeIn collection&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;collection-info&quot;]/div[@class=&quot;col-xs-12 collection-map&quot;]/button[@class=&quot;btn btn-dark&quot;]/i[@class=&quot;icon-size-fullscreen&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>
