@@ -37,4 +37,10 @@
          <variableId>b5f40cb2-2338-4619-bbc5-8ee6563b7ac6</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e057d993-595d-4942-985e-b8caaca59fb3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Backend_Search_PlantingSite</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -64,4 +64,22 @@
          <variableId>21095f44-b184-4da1-b343-6dbe19541d68</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>184a931b-2c30-4289-be5e-1b9dd3fdd45f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Fronted_SwitchBetweenMapAndGridView</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>326806a2-ab3a-47f5-a3f4-667ad6d3ea75</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Frontend_Collection</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3993f164-bd44-424f-bab4-fbef80c2720e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Frontend_ViewPhoto</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -34,4 +34,9 @@
       <initValue>'2,297'</initValue>
       <name>AvailableTrees</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Object_Backend/Page_Backend  TROFACO/PlantingSite_SearchResult_Prod')</initValue>
+      <name>SearchResult_NameOfSite</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
