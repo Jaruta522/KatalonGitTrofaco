@@ -37,7 +37,7 @@ WebUI.verifyElementVisible(GlobalVariable.SearchResult_NameOfSite)
 
 WebUI.click(GlobalVariable.SearchResult_NameOfSite)
 
-def SearchValue = 'Krang Lao SCHOOL'//GlobalVariable.SearchKey
+def SearchValue = GlobalVariable.PlantingSite_Name
 
 getNameValue = WebUI.getAttribute(findTestObject('Object_Backend/Page_Backend  TROFACO/General_Info_Name_of_PlantingSite'), 
     'value')
@@ -47,9 +47,9 @@ WebUI.comment('---GetTextboxValue :' + getNameValue.toString())
 Thread.sleep(2000)*/
 //SearchValueSend = SearchValue.toString().toUpperCase()
 
-WebUI.verifyMatch(SearchValue.toString(), getNameValue, false, FailureHandling.OPTIONAL.toString().CASE_INSENSITIVE_ORDER)
-
+WebUI.verifyMatch(SearchValue.toString(), getNameValue, false)
 //WebUI.comment(SearchValueSend.toString() + '==' + getNameValue.toString())
+
 WebUI.click(findTestObject('Object Repository/Object_Backend/Page_Backend  TROFACO/button_Cancel'))
 
 WebUI.closeBrowser()

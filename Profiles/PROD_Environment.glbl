@@ -39,4 +39,9 @@
       <initValue>findTestObject('Object_Backend/Page_Backend  TROFACO/PlantingSite_SearchResult_Prod')</initValue>
       <name>SearchResult_NameOfSite</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Krang Lao School'</initValue>
+      <name>PlantingSite_Name</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
