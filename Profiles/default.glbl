@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Object_Frontend/Page_TROFACO/Page_TROFACO/Page_TROFACO/button_OR_btn btn-primary')</initValue>
+      <name>SearchButton</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -15,15 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('Object_API/GetAllPlantingSites', [('url') : GlobalVariable.FrontendURL]))
+response = WS.sendRequest(findTestObject('Object_API/PostCustomer_Backend'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-def devUrl = 'http://trofaco-dev.manaoweb.company.manaosoftware.com/'
-
-if (GlobalVariable.FrontendURL == devUrl) {
-    WS.verifyElementPropertyValue(response, 'data[43].title', 'PS 14')
-} else {
-    WS.verifyElementPropertyValue(response, 'data[57].title', 'Krang Lao School')
-}
+WS.verifyElementPropertyValue(response, 'errors', 'null')
 

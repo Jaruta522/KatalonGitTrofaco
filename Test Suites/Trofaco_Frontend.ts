@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Trofaco_Frontent</name>
+   <name>Trofaco_Frontend</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -81,5 +81,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Frontend_ViewPhoto</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3ee5ff8-b850-49f3-902b-10a0850a1942</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API_Cases/GetAPlantingSites</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

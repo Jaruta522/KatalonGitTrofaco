@@ -14,16 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Object_API/GetAllPlantingSites', [('url') : GlobalVariable.FrontendURL]))
+WebUI.openBrowser(GlobalVariable.FrontendURL)
 
-WS.verifyResponseStatusCode(response, 200)
+WebUI.setText(findTestObject('Object_Frontend/Page_TROFACO/Page_TROFACO/Page_TROFACO/input_OR_form-control form-control-lg ng-un_30f436'), 
+    GlobalVariable.SearchKey)
 
-def devUrl = 'http://trofaco-dev.manaoweb.company.manaosoftware.com/'
+WebUI.sendKeys(findTestObject('Object_Frontend/Page_TROFACO/Page_TROFACO/Page_TROFACO/input_OR_form-control form-control-lg ng-un_30f436'), 
+    Keys.chord(Keys.ENTER))
 
-if (GlobalVariable.FrontendURL == devUrl) {
-    WS.verifyElementPropertyValue(response, 'data[43].title', 'PS 14')
-} else {
-    WS.verifyElementPropertyValue(response, 'data[57].title', 'Krang Lao School')
-}
+WebUI.closeBrowser()
 
