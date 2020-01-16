@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API_Customer_Create_Update_Delete</name>
+   <tag></tag>
+   <comment>CustomerCode: &quot; + GlobalVariable.CustomerCode.toString() + &quot; has been created as &quot; + GlobalVariable.CustomerName.toString()
+GlobalVariable.CustomerName.toString() + &quot; has been updated to &quot; + GlobalVariable.CustomerNameChanged.toString()</comment>
+   <testCaseGuid>2f4ecadd-8b8d-48f0-afbe-e0dadb289863</testCaseGuid>
+</TestCaseEntity>

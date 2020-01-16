@@ -20,6 +20,6 @@
       <guid>0ebf9f93-1968-4be8-9c80-5afd046d6280</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API_Cases/PostCustomer_Backend</testCaseId>
+      <testCaseId>Test Cases/API_Cases/API_Customer_Create_Update_Delete</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

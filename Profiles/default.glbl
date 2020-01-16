@@ -9,4 +9,29 @@
       <initValue>findTestObject('Object_Frontend/Page_TROFACO/Page_TROFACO/Page_TROFACO/button_OR_btn btn-primary')</initValue>
       <name>SearchButton</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1431'</initValue>
+      <name>CustomerCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Custname1431'</initValue>
+      <name>CustomerName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>CustomerTypeCreated</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>CustIdForUpdate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'CustomerName - updated'</initValue>
+      <name>CustomerNameChanged</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
